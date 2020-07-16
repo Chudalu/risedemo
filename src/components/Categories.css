@@ -1,0 +1,7 @@
+.container {
+    display: grid;
+    float: left;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-auto-rows: 20rem;
+    grid-gap: 100px;
+}
